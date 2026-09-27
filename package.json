@@ -1,0 +1,20 @@
+{
+    "name": "pixpack.io",
+    "module": "index.ts",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "tsx build.ts",
+        "serve": "tsx build.ts --serve",
+        "format": "prettier -w ."
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "html-minifier-terser": "^7.2.0",
+        "prettier": "^3.9.9",
+        "tsx": "^4.23.15"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}
