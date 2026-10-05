@@ -1,0 +1,13 @@
+.section {
+    padding: var(--space-12) var(--page-gutter);
+}
+
+.text-gradient {
+    background: var(--gradient-brand);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: var(--color-brand);
+    -webkit-text-fill-color: transparent;
+    padding-right: 0.08em;
+    margin-right: -0.08em;
+}

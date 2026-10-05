@@ -1,0 +1,107 @@
+.hero {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-12);
+    min-height: calc(100vh - var(--header-height));
+    min-height: calc(100svh - var(--header-height));
+    padding: var(--space-12) var(--page-gutter);
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero__title {
+    margin: 0;
+    font-size: clamp(2.25rem, 1.25rem + 3.5vw, 3rem);
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+}
+
+.hero__lede {
+    margin: var(--space-8) 0 0;
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+}
+
+.hero__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.hero__image {
+    width: 100%;
+    border-radius: 3rem 0 3rem 0;
+}
+
+.js .hero__image {
+    opacity: 0;
+    animation: slide-up 800ms 1000ms forwards;
+}
+
+.hero__line {
+    fill: none;
+    stroke: var(--color-border-hover);
+    stroke-width: 0.4;
+}
+
+.hero .line {
+    padding-bottom: 0.15em;
+    margin-bottom: -0.15em;
+}
+
+.hero__title.line {
+    opacity: 0;
+}
+
+.js .hero__title:not(.is-split),
+.js .hero__lede:not(.is-split) {
+    visibility: hidden;
+}
+
+.js .hero__actions {
+    opacity: 0;
+}
+
+@keyframes layer-split {
+    from {
+        transform: translateZ(0);
+    }
+}
+
+@media (max-width: 52rem) {
+    .hero {
+        grid-template-columns: 1fr;
+        row-gap: var(--space-8);
+        min-height: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero .line,
+    .hero__actions {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+        clip-path: none !important;
+    }
+
+    .js .hero__title:not(.is-split),
+    .js .hero__lede:not(.is-split) {
+        visibility: visible;
+    }
+}

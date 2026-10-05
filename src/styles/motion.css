@@ -1,0 +1,31 @@
+@keyframes slide-up {
+    from {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up-clipped {
+    from {
+        transform: translateY(100%);
+        clip-path: inset(0 0 100% 0);
+    }
+    to {
+        transform: translateY(0);
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.reveal {
+    animation: slide-up 800ms var(--ease-out) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        animation: none;
+    }
+}

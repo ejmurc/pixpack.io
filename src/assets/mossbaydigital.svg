@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg shape-rendering="crispEdges" viewBox="0 25 100 80" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="49" cy="91" rx="48" ry="9" fill="#007" fill-opacity=".2" shape-rendering="auto"/>
+<path d="m95 50 1-6-6-1" fill="#00f"/>
+<path d="m95 50-8-11-2 15" fill="#0ff"/>
+<path d="m85 54 2-15-10-3" fill="#0af"/>
+<path d="m69 36-1-7 9 7" fill="#00f"/>
+<path d="m85 54-8-18-11-1" fill="#02f"/>
+<path d="m85 54-19-19 3 12" fill="#0af"/>
+<path d="m85 54-22-10 15 15" fill="#027"/>
+<path d="m66 35 3 12-6-3" fill="#0ff"/>
+<path d="m66 35-8 4 5 5" fill="#0af"/>
+<path d="m58 39 20 20-19 7" fill="#20f"/>
+<path d="m78 59-19 7 17 4" fill="#00cf"/>
+<path d="m85 86-26-20 17 4" fill="#008"/>
+<path d="m85 86-26-20 19 25" fill="#005"/>
+<path d="m85 86 7 5H78" fill="#40f"/>
+<path d="m57 80 2-14 10 13" fill="#007"/>
+<path d="m57 80 1 8 11-9" fill="#002"/>
+<path d="m73 91-15-3 8-7" fill="#40f"/>
+<path d="m58 39-7 2 8 14" fill="#05f"/>
+<path d="m50 54 1-13 8 14" fill="#04f"/>
+<path d="m50 54 9 12V55" fill="#02c"/>
+<path d="m50 54 13 15-22 2" fill="#02f"/>
+<path d="m50 54-26-16 27 3" fill="#0ff"/>
+<path d="m50 54-26-16-17 9" fill="#5ff"/>
+<path d="m34 51-32 8 5-12" fill="#0bf"/>
+<path d="M21 54 4 71 2 59" fill="#08f"/>
+<path d="M21 54 4 71l23 2" fill="#04a"/>
+<path d="m34 51-7 22-7-19" fill="#04f"/>
+<path d="m50 54-23 19 7-22" fill="#02a"/>
+<path d="m50 54-26 21 18-4" fill="#20c"/>
+<path d="m4 71v16l23-14" fill="#00a"/>
+<path d="m18 91-14-4 11-7" fill="#005"/>
+<path d="m15 82 3 9h9" fill="#40f"/>
+<path d="m27 73-9 5 13 13" fill="#208"/>
+<path d="m29 82 11 9h-9" fill="#40f"/>
+</svg>

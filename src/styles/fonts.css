@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Aktiv_Grotesk_Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Aktiv_Grotesk_Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/Aktiv_Grotesk_Medium.woff2') format('woff2');
+}

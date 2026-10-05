@@ -1,0 +1,42 @@
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    min-height: var(--header-height);
+    padding: var(--space-4) var(--page-gutter);
+}
+
+.site-header__brand {
+    display: flex;
+    align-items: center;
+    column-gap: var(--space-4);
+}
+
+.site-header__logo {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.site-header__title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skip-link {
+    position: absolute;
+    top: var(--space-2);
+    left: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    background-color: var(--color-ink);
+    color: var(--color-bg);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    text-decoration: none;
+    transform: translateY(-200%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
